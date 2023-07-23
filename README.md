@@ -38,7 +38,7 @@ https://urinri2023.firebaseapp.com/
   <li>自分のサイトに合うようにindex.html, jikkou.js を参考にしてコードをサイトに実装する。<br>
     ファイル名は何でも可、単独ファイルである必要もありません。<br>
     HTMLもトップページに記述する必要はありません。<br>
-    ※外部関数[https://us-central1-urinri2023.cloudfunctions.net/aisatsu']への認証は必要ありません。</li>
+    ※外部関数<code>https://us-central1-urinri2023.cloudfunctions.net/aisatsu</code>への認証は必要ありません。</li>
 </ol></p>
 <h2>このプロジェクトに関するヘルプをどこで得るか</h2>
 <p>大野哲也　連絡先：nogawaosui@gmail.com までお問い合わせください。</p>
