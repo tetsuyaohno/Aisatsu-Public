@@ -26,7 +26,7 @@
 </p>
 <h2>このプロジェクトの使い始め方</h2>
 <h3>とりあえず使ってみる</h3>
-https://urinri2023.firebaseapp.com/
+https://urinri2023.web.app
 <h3>クイックスタート</h3>
 <p><ol>
   <li><code>index.html</code>と<code>jikkou.js</code>を任意の同じフォルダにダウンロードします。</li>
