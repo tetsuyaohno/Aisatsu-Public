@@ -29,7 +29,7 @@
 https://urinri2023.firebaseapp.com/
 <h3>クイックスタート</h3>
 <p><ol>
-  <li>index.htmlとjikkou.jsを任意の同じフォルダにダウンロードします。</li>
+  <li><code>index.html</code>と<code>jikkou.js</code>を任意の同じフォルダにダウンロードします。</li>
   <li>ブラウザでindex.htmlを開きます。</li>
   <li>指定された項目を入力して「あいさつ生成」をクリックします。</li>
   <li>しばらく待つと挨拶文が表示されます（長さは500字程度に固定されています。）。</li>
