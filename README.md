@@ -35,7 +35,7 @@ https://urinri2023.firebaseapp.com/
   <li>しばらく待つと挨拶文が表示されます（長さは500字程度に固定されています。）。</li>
   <li>気に入れば「クリップボードにコピー」をクリックして内容をクリップボードに取得します。</li>
   <li>気に入らなければ、クリアボタンで内容をクリアし、条件を調整して再度挨拶を生成します。</li>
-  <li>自分のサイトに合うようにindex.html, jikkou.js を参考にしてコードをサイトに実装する。<br>
+  <li>自分のサイトに合うように<code>index.html</code>や<code>jikkou.js</code>を参考にしてコードをサイトに実装する。<br>
     ファイル名は何でも可、単独ファイルである必要もありません。<br>
     HTMLもトップページに記述する必要はありません。<br>
     ※外部関数<code>https://us-central1-urinri2023.cloudfunctions.net/aisatsu</code>への認証は必要ありません。</li>
