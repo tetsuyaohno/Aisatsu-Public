@@ -49,7 +49,7 @@ https://urinri2023.web.app<br><br>
     ※外部関数<code>https://us-central1-urinri2023.cloudfunctions.net/aisatsu</code>への認証は必要ありません。</li>
 </ol></p>
 <h2>このプロジェクトに関するヘルプをどこで得るか</h2>
-<p>大野哲也　連絡先：nogawaosui@gmail.com までお問い合わせください。</p>
+<p>大野哲也　連絡先：tetsu-o@mb.pikara.ne.jp までお問い合わせください。</p>
 <h2>このプロジェクトの管理者とプロジェクトへの協力について</h2>
 <p>　このプロジェクトは愛媛県倫理法人会の年間事業として行われており、その管理を大野哲也が行っています。
   　この事業に参加、協力いただける方、特に倫友を募集しています。<br>
