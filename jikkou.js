@@ -24,9 +24,7 @@ function clearText(){
     const hosoku = document.getElementById('hosoku').value;//テキストボックスの値を定数に取得
     //console.log('立場：' + '' + tachiba +  '　場面:' + bamen + '　注文:' + chumon + ' 補足情報:' + hosoku);
     const url= 'https://us-central1-urinri2023.cloudfunctions.net/aisatsu';//本番
-    //const url= 'https://gotest-qfhimhtbjq-uc.a.run.app';//テスト関数
-    //const url = 'http://127.0.0.1:5001/urinri2023/us-central1/gogpt';//本番ローカル
-    //const url= 'http://127.0.0.1:5001/urinri2023/us-central1/gotest';//テスト用ローカル
+    
     const body = {tachiba: tachiba, bamen: bamen, chumon: chumon, hosoku: hosoku};
     //+++++++++　フェッチコマンドで外部関数実行　++++++++++
     fetch(url,{
