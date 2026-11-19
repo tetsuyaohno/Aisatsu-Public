@@ -16,6 +16,8 @@ function clearText(){
    * postメソッドで外部関数を実行
    * 引数： tachiba = 立場,　bamen = 場面,　chumon = 注文事項,　hosoku = 補足内容　
    * (JSON形式)
+   * @param {void} なし。画面の入力欄から取得する。
+   * @return {void} 応答を回答欄に表示する。
    */
   function executeGpt(){
     const tachiba = document.getElementById('tachiba').value;//テキストボックスの値を定数に取得
@@ -23,9 +25,13 @@ function clearText(){
     const chumon = document.getElementById('chumon').value;//テキストボックスの値を定数に取得
     const hosoku = document.getElementById('hosoku').value;//テキストボックスの値を定数に取得
     //console.log('立場：' + '' + tachiba +  '　場面:' + bamen + '　注文:' + chumon + ' 補足情報:' + hosoku);
-    const url= 'https://us-central1-urinri2023.cloudfunctions.net/aisatsu';//本番
+    // ローカル画面ではFunctionsエミュレーターのgogptを呼び出す。
+    const isLocal = ['localhost', '127.0.0.1', '[::1]'].includes(window.location.hostname);
+    const url = isLocal
+      ? 'http://127.0.0.1:5001/urinri2023/us-central1/gogpt'
+      : 'https://us-central1-urinri2023.cloudfunctions.net/gogpt';//本番
     
-    const body = {tachiba: tachiba, bamen: bamen, chumon: chumon, hosoku: hosoku};
+    const body = {tachiba: tachiba, bamen: bamen, chumon: chumon, hoeesoku: hosoku};
     //+++++++++　フェッチコマンドで外部関数実行　++++++++++
     fetch(url,{
       method: "POST", // or 'PUT'
